@@ -7,7 +7,7 @@
 <% if !!products = cart %>
   <h3>Items in Cart:</h3>
   <ul>
-    <% @products.each do |product| %>
+    <% products.each do |product| %>
       <li><%= product %></li>
     <% end %>
   </ul>
