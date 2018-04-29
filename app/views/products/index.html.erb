@@ -4,7 +4,7 @@
   <%= submit_tag "add to cart" %>
 <% end %>
 
-<% if !!@products = cart %>
+<% if !!products = cart %>
   <h3>Items in Cart:</h3>
   <ul>
     <% @products.each do |product| %>
