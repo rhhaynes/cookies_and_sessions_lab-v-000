@@ -1,7 +1,6 @@
 class ProductsController < ApplicationController
   
   def index
-    @products = cart
   end
   
   def create
